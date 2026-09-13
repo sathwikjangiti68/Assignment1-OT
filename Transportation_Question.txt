@@ -2,7 +2,8 @@
 
 A logistics company operates four warehouses  (S_1,S_2,S_3,S_4) that supply products to **four retail distribution centers (D_1,D_2,D_3,D_4).
 
-The company needs to transport its entire available stock from the warehouses to the distribution centers. The transportation cost per unit depends on the warehouse and destination, as shown below:
+The company needs to transport its entire available stock from the warehouses to the distribution centers. 
+The transportation cost per unit depends on the warehouse and destination, as shown below:
 
 | Warehouse / Destination |    D₁ |    D₂ |     D₃ |     D₄ | Available Supply |
 | ----------------------- | ----: | ----: | -----: | -----: | ---------------: |
