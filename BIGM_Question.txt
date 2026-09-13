@@ -1,0 +1,16 @@
+Question:
+
+Using the Big-M Method, solve the following Linear Programming Problem and 
+develop a Python program using NumPy to obtain the optimal solution:
+
+Maximize:
+         Z = 3x₁ + 2x₂
+
+Subject to:
+          x₁ + x₂ ≥ 4
+          x₁ + 2x₂ ≤ 6
+          x₁, x₂ ≥ 0
+
+The Python program should implement the Big-M Simplex Method and display each iteration,
+including the basic variables, simplex tableau, Cj − Zj values, entering variable, 
+leaving variable, pivot element, and the final optimal solution.
