@@ -1,0 +1,21 @@
+### Case Study: Optimizing a Company’s Delivery Network
+
+A logistics company operates four warehouses  (S_1,S_2,S_3,S_4) that supply products to **four retail distribution centers (D_1,D_2,D_3,D_4).
+
+The company needs to transport its entire available stock from the warehouses to the distribution centers. The transportation cost per unit depends on the warehouse and destination, as shown below:
+
+| Warehouse / Destination |    D₁ |    D₂ |     D₃ |     D₄ | Available Supply |
+| ----------------------- | ----: | ----: | -----: | -----: | ---------------: |
+| S₁                      |    19 |    30 |     50 |     10 |                7 |
+| S₂                      |    70 |    30 |     40 |     60 |                9 |
+| S₃                      |    40 |     8 |     70 |     20 |               18 |
+| S₄                      |    30 |    25 |     35 |     15 |               16 |
+| **Required Demand**     | **5** | **8** | **20** | **17** |                  |
+
+Question:
+A logistics company has four warehouses and four distribution centers. The transportation costs, supply, and demand are given below. 
+Determine the transportation plan that minimizes the total transportation cost.
+
+Use Vogel’s Approximation Method (VAM) to obtain the initial basic feasible solution and calculate its transportation cost. 
+Then apply the **MODI Method** to test and improve the solution until the optimal transportation plan and minimum total cost are obtained. 
+Develop a Python program using NumPy to implement VAM and MODI.
