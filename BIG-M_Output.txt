@@ -1,0 +1,45 @@
+Iteration: 0
+Basic Variables: ['A1', 's2']
+
+Tableau:
+Basis   x1      x2      s1      s2      A1      RHS
+A1      1.0     1.0     -1.0    0.0     1.0     4.0
+s2      1.0     2.0     0.0     1.0     0.0     6.0
+Cj-Zj   1000003.0       1000002.0       -1000000.0      0.0     0.0 
+Z = -4000000.0
+
+Entering Variable: x1
+Leaving Variable: A1
+Pivot Element: 1.0
+
+Iteration: 1
+Basic Variables: ['x1', 's2']
+
+Tableau:
+Basis   x1      x2      s1      s2      A1      RHS
+x1      1.0     1.0     -1.0    0.0     1.0     4.0
+s2      0.0     1.0     1.0     1.0     -1.0    2.0
+Cj-Zj   0.0     -1.0    3.0     0.0     -1000003.0 
+Z = 12.0
+
+Entering Variable: s1
+Leaving Variable: s2
+Pivot Element: 1.0
+
+Iteration: 2
+Basic Variables: ['x1', 's1']
+
+Tableau:
+Basis   x1      x2      s1      s2      A1      RHS
+x1      1.0     2.0     0.0     1.0     0.0     6.0
+s1      0.0     1.0     1.0     1.0     -1.0    2.0
+Cj-Zj   0.0     -4.0    0.0     -3.0    -1000000.0 
+Z = 18.0
+
+========== OPTIMAL SOLUTION ==========
+x1 = 6.0
+x2 = 0
+s1 = 2.0
+s2 = 0
+A1 = 0
+Maximum Profit Z = 18.0
