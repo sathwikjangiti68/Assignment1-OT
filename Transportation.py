@@ -106,6 +106,17 @@ for i in range(m):
         print(int(allocation[i][j]), end="\t")
 
     print()
+
+initial_cost = 0
+
+for i in range(m):
+
+    for j in range(n):
+
+        initial_cost += allocation[i][j] * cost[i][j]
+
+print("\nInitial Transportation Cost =", int(initial_cost))
+
 # ---------------- MODI ----------------
 
 while True:
